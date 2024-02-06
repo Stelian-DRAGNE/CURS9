@@ -12,3 +12,5 @@ for nr in numere:
         break
 else:
     print("Numarul jucat nu se afla in numerele extrase !")
+
+print(any([numar_jucat == nr for nr in numere]))

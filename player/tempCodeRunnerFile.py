@@ -1,0 +1,1 @@
+print(any([numar_jucat == nr for nr in numere]))
