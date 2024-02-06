@@ -1,7 +1,4 @@
 import random
 
-numere = []
-for i in range(6):
-    numar_nou = random.randint(1, 49)
-    numere.append(numar_nou)
+numere = [random.randint(1, 49) for _ in range(6)]
 print(numere)
