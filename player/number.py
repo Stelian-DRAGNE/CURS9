@@ -19,3 +19,7 @@ print("Categoria : ", 7 - len(numere_comune) if len(numere_comune) >= 3 else 0)
 
 print(all([nr in range(1, 50) for nr in numere]))
 print(all([nr in range(1, 50) for nr in numere_jucate]))
+
+## Verificam daca numerele sunt unice
+print(len(numere) == len(set(numere)))
+print(len(numere_jucate) == len(set(numere_jucate)))
