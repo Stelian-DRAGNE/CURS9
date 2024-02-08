@@ -8,6 +8,4 @@ print(numere_jucate)
 print(numere)
 print(numere_comune)
 
-categorii = {6:1, 5:2, 4:3, 3:4}
-print("Categoria : ", categorii.get(len(numere_comune), 0))
-print("Categoria : ", categorii[len(numere_comune)] if len(numere_comune) in categorii else 0)
+print("Categoria : ", 7 - len(numere_comune) if len(numere_comune) >= 3 else 0)
